@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 function YourBotArmy({sortByHealth}) {
     return ( 
        <div div id = "yourBotArmy">
-        <button onClick={()=>{
+        <button id= 'select' onClick={()=>{
           sortByHealth()
         }}>sort by health</button>
        </div> 

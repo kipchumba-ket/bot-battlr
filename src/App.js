@@ -19,7 +19,7 @@ function App() {
   let [newArray,setNewArray] = useState([])
 
 useEffect(()=>{
-  fetch("http://localhost:8000/bots")
+  fetch("https://ketkip.vercel.app/bots")
   .then((res)=> res.json())
   .then((data) =>{
     setBots(data)
