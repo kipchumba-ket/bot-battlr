@@ -2,13 +2,20 @@ import React from "react";
 import "../style/yourBotArmy.css"
 import { NavLink } from 'react-router-dom'
 
-function YourBotArmy({sortByHealth}) {
+function YourBotArmy({sortByHealth,handleSort}) {
     return ( 
        <div div id = "yourBotArmy">
-        <button id= 'select' onClick={()=>{
-          sortByHealth()
-        }}>sort by health</button>
-       </div> 
+        <select onChange={
+          (e)=>{
+            handleSort(e.target.value);
+          }
+        }id ="select" >
+          <option>Sort by</option>
+          <option value='health'>Health</option>
+          <option value='armor'>Armor</option>
+          <option value='damage'>Damage</option>
+        </select>
+        </div>
      );
 }
 

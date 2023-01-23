@@ -20,9 +20,15 @@ code {
 }
 #delete:hover{
   scale: 1.02;
-  border: 1px solid blue;
+  border: 1px solid rgb(161, 161, 168);
 }
 #delete:active{
   scale: .98;
   
+}
+H1 {
+  font-size: 70px;
+  text-align: center;
+  background-color: bisque;
+  color: black;
 }

@@ -83,6 +83,7 @@ function addBot(id,name,image,phrase,health,armor,damage){
   return (
     <Router>
     <main>
+      <h1 className="H1">My Bot Army</h1>
       <YourBotArmy sortByHealth = {sortByHealth}/>
       <Switch>
        <Route exact path="/">
