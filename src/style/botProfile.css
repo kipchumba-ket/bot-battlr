@@ -1,0 +1,82 @@
+img{
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    background-color: antiquewhite;
+    width: 100%;
+}
+#card{
+    margin: 1em;
+    height: 30em;
+    width: 20em;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    border: 2px solid rgb(162, 161, 161);
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: black;
+}
+
+#card:hover{
+    opacity: .8;
+}
+
+#botName{
+    font-size: 1.6em;
+    margin:.5em 0em .5em 1em;
+
+}
+
+#botPhrase{
+    font-size: .7em;
+    margin-left: .5em;
+}
+
+#abilities{
+    display: flex;
+    flex-direction: row;
+}
+
+#ability{
+    font-size: 1.5em;
+    color: rgb(82, 82, 82);
+}
+
+.material-icons{
+    position: relative;
+    top: 43px;
+    margin-left: 1em;
+    margin-right: .3em;
+}
+
+#bolt{
+    margin-right: 0;
+    margin-left:.6em ;
+    top: 38px;
+    font-size: 2em;
+    color: rgb(135, 133, 5);
+}
+
+#health{
+    color: red;
+}
+
+#shield{
+    color: rgb(1, 1, 93);
+}
+
+#delete{
+    height: 2em;
+    position: relative;
+    top: 3em;
+    left: 3em;
+}
+
+#delete:hover{
+    scale: 1.02;
+    border: 1px solid blue;
+}
+
+#delete:active{
+    scale: .98;
+    border: 1px solid red;
+}

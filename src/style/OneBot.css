@@ -1,0 +1,62 @@
+#oneBot {
+  position: relative;
+  top: 21em;
+  left: 25em;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid grey;
+  width: 50em;
+}
+
+#oneBot img {
+  background-color: aqua;
+  height: 100%;
+  width: 20em;
+}
+
+#oneBotDetails {
+  padding: 1em;
+}
+
+#oneBotDetails h5 {
+  font-size: 2em;
+  margin: 1em;
+}
+
+#oneBotDetails h7 {
+  font-size: 1em;
+  margin: 1em 2em;
+}
+
+#oneBotabilities{
+display: flex;
+position: relative;
+}
+
+
+#button{
+    position: relative;
+    left: 3em;
+    border: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding:.5em;
+    background-color: rgb(224, 224, 224);
+    margin-top: 1em;
+    text-decoration: none;
+    color: black;
+    padding: .6em 3em;
+}
+
+#button:hover{
+background-color: rgb(164, 163, 163);
+}
+
+#button:active{
+    background-color: rgb(164, 163, 163);
+    scale: .98;
+    }
+    
+#oneBot button{
+  width: 10em;
+}

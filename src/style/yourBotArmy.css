@@ -1,0 +1,56 @@
+#yourBotArmy{
+    position: fixed;
+    width: 99vw;
+    height: 40vh;
+    background-color: rgb(5, 86, 157);
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    z-index: 10000;
+}
+
+#yourBotArmy::-webkit-scrollbar{
+    appearance: none;
+}
+
+#army-container{
+    margin: 1em;
+    height: 17em;
+    width:15em;
+    background-color: rgb(202, 202, 202);
+    border: 1px solid grey;
+}
+
+#army-pic{
+    width: 100%;
+    height: 11em;
+    background-color: aliceblue;
+}
+
+#army-heading{
+    margin: .3em 0em .5em 1em ;
+    font-size: 1em;
+}
+
+#army-phrase{
+    font-size: .7em;
+    margin: .1em 0em 1.7em 1.3em;
+    color: grey;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#army-abilities{
+    /* margin:0; */
+    display: flex;
+    margin-top: .6em;
+    margin-left: .5em;
+}
+
+#army-ability{
+    margin: 0;
+    margin-left: .6em;
+}
+
+
+
