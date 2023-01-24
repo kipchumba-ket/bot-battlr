@@ -52,8 +52,11 @@
     margin-left: .6em;
 }
 
-#handleSort {
-
+#select{
+height: 3em;
+padding: 0em;
+width: 5%;
 }
+
 
 

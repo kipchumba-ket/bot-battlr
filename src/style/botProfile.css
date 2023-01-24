@@ -68,7 +68,8 @@ img{
     height: 2em;
     position: relative;
     top: 3em;
-    left: 3em;
+    left: 2em;
+    width: 11%;
 }
 
 #delete:hover{
